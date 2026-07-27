@@ -18,6 +18,7 @@ This is for
 A buzzer is also inserted for alerting the user of 3 scenarios:
 1) User exceeds 5s to enter pattern using the buttons
    If that happens, the RGB clears out and the game starts over with the return command
+   
   Game Results desplayed on Serial Monitor + Score along with:  
 2) Letting out a long tone upon failure to enter right pattern
 3) Letting out multiple short tones upon succes to enter right pattern
