@@ -15,8 +15,6 @@ This is for
 1) displaying pattern on the LEDs for the player at the start of the game
 2) knowing which buttons are to be pressed and in which sequence, also knowing when the pattern is entered wrong.
 
-
-
 A buzzer is also inserted for alerting the user of 3 scenarios:
 1) User exceeds 5s to enter pattern using the buttons
    If that happens, the RGB clears out and the game starts over with the return command
