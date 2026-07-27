@@ -122,9 +122,7 @@ void loop() {
        time_diff = time_now-time_start;
       if (time_diff == 5000) {
         Serial.println("Too long! Game startover!");
-        digitalWrite(buzzpin, HIGH);
-        delay(1000);
-        digitalWrite(buzzpin, LOW);
+        tone(buzzpin, 300, 1000);
         
         // Reset RGB & restart game
         digitalWrite(Rpin, LOW);
