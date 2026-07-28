@@ -14,6 +14,7 @@ int buttonPins[] = {3, 4, 5, 6};
 This is for 
 1) displaying pattern on the LEDs for the player at the start of the game
 2) knowing which buttons are to be pressed and in which sequence, also knowing when the pattern is entered wrong.
+3) Making corresponding LED light up when button is pressed.
 
 A buzzer is also inserted for alerting the user of 3 scenarios:
 1) User exceeds 5s to enter pattern using the buttons
@@ -22,3 +23,7 @@ A buzzer is also inserted for alerting the user of 3 scenarios:
   Game Results desplayed on Serial Monitor + Score along with:  
 2) Letting out a long tone upon failure to enter right pattern
 3) Letting out multiple short tones upon succes to enter right pattern
+
+
+TinkerCad Simulation: https://www.tinkercad.com/things/lBPzs74HDK7-simon-game
+Video: https://drive.google.com/file/d/1zMgsDUxCIWrNXhFw7u8QJdbyP1F9MZdV/view?usp=sharing
